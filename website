@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<title> Website </title>
+</head>
+<body bgcolor="CC252C">
+<center>
+<h1>Web Development</h1>
+</centER><hr color="C7E5F0">
+<h2>Website</h2>
+
+<ul type="square">
+<li>Frontend</li>
+<ul type="square"></ul>
+<ol type ="I">
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+</ol>
+<li>Backend</li>
+<ul type="square"></ul>
+<ol type ="I">
+<li>PHP</li>
+<li>Dataabase</li>
+
+</ol>
+
+
+</body>
+</html>
