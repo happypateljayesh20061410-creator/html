@@ -1,0 +1,39 @@
+body {
+    background: lightblue;
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial;
+}
+
+header {
+    background: navy;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background: yellow;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    background: pink;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+section {
+    background: grey;
+    padding: 20px;
+    margin: 20px;
+}
