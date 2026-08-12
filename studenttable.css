@@ -1,0 +1,51 @@
+body{
+background: #9B8EC7;
+font-family: Arial, sans-serif;
+text-align: center;
+}
+h1{
+color: #FEFD99;
+margin-top: 20px;
+font-weight: bold;
+}
+table{
+width: 60%;
+margin: 20px auto;
+border-collapse: collapse;
+box-shadow: 10px  18px 10px  10px #F2EAE0;
+background-color: #BDA6CE;
+}
+th{
+background-color: #9ED3DC;
+color: #EEE0CCk;
+padding: 12px;
+border: 2px solid gray;
+}
+
+td{
+    padding: 12px;
+    border: 2px solid gray;
+    text-align: center;
+}
+
+/* Alternate rows */
+tr:nth-child(even){
+    background-color: #BDA6CE;
+}
+
+/* Hover effect */
+tr:hover{
+    background-color: #FEFD99;
+}
+
+/* First column (ID) */
+td:first-child{
+    background-color: #F6F0D7;
+    font-weight: bold;
+}
+
+/* Second column (Name) */
+td:nth-child(2){
+    background-color: #FCB7C7;
+    font-weight: bold;
+}
