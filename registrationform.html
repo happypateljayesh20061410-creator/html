@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Registration Form</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<div class="container">
+<h1>Student Registration Form</h1>
+<form>
+<!-- Full Name -->
+<label for="name">Full Name</label>
+<input type="text" id="name" placeholder="Enter your name">
+<!-- Email -->
+<label for="email">Email</label>
+<input type="email" id="email" placeholder="Enter your email">
+<!-- Gender -->
+<label>Gender</label>
+ <div class="gender">
+  <input type="radio" name="gender" id="male">
+<label for="male">Male</label>
+ <input type="radio" name="gender" id="female">
+<label for="female">Female</label>
+</div>
+ <!-- Course -->
+            <label for="course">Course</label>
+            <select id="course">
+                <option>-- Select Course --</option>
+                                <option>BBA</option>
+<option>Microbiology</option>
+<option>B.mech</option>
+<option>B.Arch</option>
+
+                <option>BSC Data Science</option>
+            </select>
+
+            <!-- Terms -->
+            <div class="terms">
+                <input type="checkbox" id="terms">
+                <label for="terms">
+                    I agree to the Terms & Conditions
+                </label>
+            </div>
+
+            <!-- Buttons -->
+            <div class="buttons">
+                <button type="submit">Register</button>
+                <button type="reset">Clear</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
